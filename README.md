@@ -43,7 +43,7 @@ sudo docker run hello-world
 ```bash
 mkdir workspace_scala
 cd workspace_scala
-git clone https://github.com/dagilgon/activator-akka-docker.git
+git clone https://github.com/dagilgon/akka-cluster-docker-sharding-routing-chat.git
 cd activator-akka-docker
 ```
 # Contruimos la imagen en cada nodo
@@ -79,6 +79,7 @@ sudo docker run -p 2551:2551 --name node-4 --net host akka-docker:2.3.10 192.168
 
 
 ----------------------- PERFORMANCE -----------------------------
+# Ejemplo peticiones
 
 ```bash
 cat urls.txt 
