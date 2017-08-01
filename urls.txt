@@ -1,0 +1,10 @@
+http://localhost:8888/chat?from=1&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=2&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=3&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=4&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=5&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=6&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=7&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=8&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=9&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=10&to=paco&payload=hola%20majo

@@ -1,0 +1,20 @@
+[0m[[0minfo[0m] [0mRunning es.dgg.MainRouting 127.0.0.1:2551[0m
+[0m[[0minfo[0m] [0mparseando argumentos...[0m
+[0m[[0minfo[0m] [0margumentos parseados...[0m
+[0m[[0minfo[0m] [0m[INFO] [08/01/2017 11:19:57.017] [main] [akka.remote.Remoting] Starting remoting[0m
+[0m[[0minfo[0m] [0m[INFO] [08/01/2017 11:19:57.099] [main] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://application@127.0.0.1:2553][0m
+[0m[[0minfo[0m] [0m[INFO] [08/01/2017 11:19:57.100] [main] [akka.remote.Remoting] Remoting now listens on addresses: [akka.tcp://application@127.0.0.1:2553][0m
+[0m[[0minfo[0m] [0m[INFO] [08/01/2017 11:19:57.105] [main] [akka.cluster.Cluster(akka://application)] Cluster Node [akka.tcp://application@127.0.0.1:2553] - Starting up...[0m
+[0m[[0minfo[0m] [0m[INFO] [08/01/2017 11:19:57.176] [main] [akka.cluster.Cluster(akka://application)] Cluster Node [akka.tcp://application@127.0.0.1:2553] - Registered cluster JMX MBean [akka:type=Cluster][0m
+[0m[[0minfo[0m] [0m[INFO] [08/01/2017 11:19:57.177] [main] [akka.cluster.Cluster(akka://application)] Cluster Node [akka.tcp://application@127.0.0.1:2553] - Started up successfully[0m
+[0m[[0minfo[0m] [0m[INFO] [08/01/2017 11:19:57.185] [main] [akka.actor.ActorSystemImpl(application)] ActorSystem application started successfully[0m
+[0m[[0minfo[0m] [0m[WARN] [08/01/2017 11:19:57.192] [application-akka.actor.default-dispatcher-4] [akka.tcp://application@127.0.0.1:2553/system/cluster/core/daemon/downingProvider] Don't use auto-down feature of Akka Cluster in production. See 'Auto-downing (DO NOT USE)' section of Akka Cluster documentation.[0m
+[0m[[0minfo[0m] [0mroles->[node][0m
+[0m[[0minfo[0m] [0m[INFO] [08/01/2017 11:19:57.267] [application-akka.actor.default-dispatcher-18] [akka.actor.ActorSystemImpl(application)] c1 joined chat room[0m
+[0m[[0minfo[0m] [0m[INFO] [08/01/2017 11:19:57.267] [application-akka.actor.default-dispatcher-17] [akka.actor.ActorSystemImpl(application)] c2 joined chat room[0m
+[0m[[0minfo[0m] [0m[INFO] [08/01/2017 11:19:57.267] [application-akka.actor.default-dispatcher-4] [akka.actor.ActorSystemImpl(application)] c3 joined chat room[0m
+[0m[[0minfo[0m] [0m[INFO] [08/01/2017 11:19:57.367] [application-akka.actor.default-dispatcher-4] [akka.cluster.Cluster(akka://application)] Cluster Node [akka.tcp://application@127.0.0.1:2553] - Welcome from [akka.tcp://application@127.0.0.1:2551][0m
+[0m[[0minfo[0m] [0m[INFO] [08/01/2017 11:19:57.372] [application-akka.actor.default-dispatcher-19] [akka.tcp://application@127.0.0.1:2553/user/cluster-monitor] Member up akka.tcp://application@127.0.0.1:2551 with roles Set(seed)[0m
+[0m[[0minfo[0m] [0m[INFO] [08/01/2017 11:19:57.373] [application-akka.actor.default-dispatcher-19] [akka.tcp://application@127.0.0.1:2553/user/cluster-monitor] Member up akka.tcp://application@127.0.0.1:2552 with roles Set(node)[0m
+[0m[[0minfo[0m] [0m[INFO] [08/01/2017 11:19:59.225] [application-akka.actor.default-dispatcher-15] [akka.tcp://application@127.0.0.1:2553/user/cluster-monitor] Member up akka.tcp://application@127.0.0.1:2553 with roles Set(node)[0m
+[0m[[0minfo[0m] [0m[INFO] [08/01/2017 11:20:09.224] [application-akka.actor.default-dispatcher-17] [akka://application/user/ClusterAwareActor/c1/client] Message [es.dgg.ChatClient$Message] from Actor[akka.tcp://application@127.0.0.1:2551/user/ClusterAwareActor/c1/client#-1574747847] to Actor[akka://application/user/ClusterAwareActor/c1/client#-1593389207] was not delivered. [1] dead letters encountered, no more dead letters will be logged. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.[0m

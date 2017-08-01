@@ -1,0 +1,21 @@
+[0m[[0minfo[0m] [0mPackaging /home/dgilsanz/workspace_scala/activator-akka-docker/target/scala-2.11/akka-docker_2.11-2.5.3-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	application.conf[0m
+[0m[[0mdebug[0m] [0m	  /home/dgilsanz/workspace_scala/activator-akka-docker/src/main/resources/application.conf[0m
+[0m[[0mdebug[0m] [0m	node.seed.conf[0m
+[0m[[0mdebug[0m] [0m	  /home/dgilsanz/workspace_scala/activator-akka-docker/src/main/resources/node.seed.conf[0m
+[0m[[0mdebug[0m] [0m	es/dgg/HostIP.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/dgilsanz/workspace_scala/activator-akka-docker/src/main/scala/es/dgg/HostIP.scala[0m
+[0m[[0mdebug[0m] [0m	es/dgg/NodeConfig.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/dgilsanz/workspace_scala/activator-akka-docker/src/main/scala/es/dgg/NodeConfig.scala[0m
+[0m[[0mdebug[0m] [0m	node.cluster.conf[0m
+[0m[[0mdebug[0m] [0m	  /home/dgilsanz/workspace_scala/activator-akka-docker/src/main/resources/node.cluster.conf[0m
+[0m[[0mdebug[0m] [0m	es/dgg/MonitorActor.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/dgilsanz/workspace_scala/activator-akka-docker/src/main/scala/es/dgg/MonitorActor.scala[0m
+[0m[[0mdebug[0m] [0m	es/dgg/Main.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/dgilsanz/workspace_scala/activator-akka-docker/src/main/scala/es/dgg/Main.scala[0m
+[0m[[0mdebug[0m] [0m	es/dgg/RandomUser.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/dgilsanz/workspace_scala/activator-akka-docker/src/main/scala/es/dgg/RandomUser.scala[0m
+[0m[[0mdebug[0m] [0m	es/dgg/ChatClient.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/dgilsanz/workspace_scala/activator-akka-docker/src/main/scala/es/dgg/ChatClient.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

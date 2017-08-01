@@ -1,0 +1,7 @@
+docker:publishLocal
+exit
+compile
+eclipse
+compile
+runSeed
+exit

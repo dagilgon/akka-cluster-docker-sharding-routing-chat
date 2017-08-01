@@ -1,0 +1,33 @@
+[0m[[0mdebug[0m] [0mExecuting docker build --force-rm -t akka-docker:2.5.3 .[0m
+[0m[[0mdebug[0m] [0mWorking directory /home/dgilsanz/workspace_scala/activator-akka-docker/target/docker/stage[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  29.63MB[0m
+[0m[[0minfo[0m] [0mStep 1/8 : FROM java:latest[0m
+[0m[[0minfo[0m] [0m ---> d23bdf5b1b1b[0m
+[0m[[0minfo[0m] [0mStep 2/8 : MAINTAINER David Gilsanz Gonzalez[0m
+[0m[[0minfo[0m] [0m ---> Using cache[0m
+[0m[[0minfo[0m] [0m ---> 61948475e454[0m
+[0m[[0minfo[0m] [0mStep 3/8 : WORKDIR /opt/docker[0m
+[0m[[0minfo[0m] [0m ---> Using cache[0m
+[0m[[0minfo[0m] [0m ---> 8317c61a874b[0m
+[0m[[0minfo[0m] [0mStep 4/8 : ADD opt /opt[0m
+[0m[[0minfo[0m] [0m ---> 0376eef5a58e[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container ee52e382fccb[0m
+[0m[[0minfo[0m] [0mStep 5/8 : RUN chown -R daemon:daemon .[0m
+[0m[[0minfo[0m] [0m ---> Running in 118dda86f5cf[0m
+[0m[[0minfo[0m] [0m ---> 993a388ab81e[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 118dda86f5cf[0m
+[0m[[0minfo[0m] [0mStep 6/8 : USER daemon[0m
+[0m[[0minfo[0m] [0m ---> Running in 6b7628e6ed49[0m
+[0m[[0minfo[0m] [0m ---> c8a85ee1d36e[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 6b7628e6ed49[0m
+[0m[[0minfo[0m] [0mStep 7/8 : ENTRYPOINT bin/akka-docker[0m
+[0m[[0minfo[0m] [0m ---> Running in 874310b79381[0m
+[0m[[0minfo[0m] [0m ---> a8212cde20f8[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 874310b79381[0m
+[0m[[0minfo[0m] [0mStep 8/8 : CMD[0m
+[0m[[0minfo[0m] [0m ---> Running in 4d818d0e103d[0m
+[0m[[0minfo[0m] [0m ---> 88f5b36b0450[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 4d818d0e103d[0m
+[0m[[0minfo[0m] [0mSuccessfully built 88f5b36b0450[0m
+[0m[[0minfo[0m] [0mSuccessfully tagged akka-docker:2.5.3[0m
+[0m[[0minfo[0m] [0mBuilt image akka-docker:2.5.3[0m
