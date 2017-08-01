@@ -2,7 +2,8 @@
 
 from (http://mukis.de/pages/akka-cluster-with-docker-containers/).
 
-# Implementacion Akka Cluster + Docker + Akka Sharding / Akka Router Aware / Akka http
+# Implementacion Akka Cluster + Docker + Akka Sharding / Akka Router Cluster Aware + Akka http (Rest Api)
+
 
 ----------------------- AKKA CLUSTER DOCKER (LOCAL MODE)-----------------------------
 
@@ -75,4 +76,27 @@ sudo docker run -p 2551:2551 --name node-3 --net host akka-docker:2.3.10 192.168
 ```bash
 sudo docker run -p 2551:2551 --name node-4 --net host akka-docker:2.3.10 192.168.131.31:2551 192.168.131.32:2551
 ```
+
+
+----------------------- PERFORMANCE -----------------------------
+
+```bash
+cat urls.txt 
+http://localhost:8888/chat?from=1&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=2&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=3&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=4&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=5&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=6&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=7&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=8&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=9&to=paco&payload=hola%20majo
+http://localhost:8888/chat?from=10&to=paco&payload=hola%20majo
+```
+# Ejemplo 3 clientes concurrentes / 5000 peticiones
+
+```bash
+time cat urls.txt | parallel -j 3 'ab -ql -n 5000 -c 1 -k {}' | grep 'Requests per second'
+```
+
 
