@@ -54,27 +54,27 @@ sudo sbt docker:publishLocal
 
 # bd-worker1
 ```bash
-sudo docker run -p 2551:2551 --name seed-1 --net host akka-docker:2.3.10 --seed
+sudo docker run -p 2551:2551 --name seed-1 --net host akka-docker:2.5.3 --seed
 ```
 # bd-worker2
 ```bash
-sudo docker run -p 2551:2551 --name seed-2 --net host akka-docker:2.3.10 --seed 192.168.131.31:2551
+sudo docker run -p 2551:2551 --name seed-2 --net host akka-docker:2.5.3 --seed 192.168.131.31:2551
 ```
 # bd worker3
 ```bash
-sudo docker run -p 2551:2551 --name node-1 --net host akka-docker:2.3.10 192.168.131.31:2551 192.168.131.32:2551
+sudo docker run -p 2551:2551 --name node-1 --net host akka-docker:2.5.3 192.168.131.31:2551 192.168.131.32:2551
 ```
 # bd worker4
 ```bash
-sudo docker run -p 2551:2551 --name node-2 --net host akka-docker:2.3.10 192.168.131.31:2551 192.168.131.32:2551
+sudo docker run -p 2551:2551 --name node-2 --net host akka-docker:2.5.3 192.168.131.31:2551 192.168.131.32:2551
 ```
 # bd worker5
 ```bash
-sudo docker run -p 2551:2551 --name node-3 --net host akka-docker:2.3.10 192.168.131.31:2551 192.168.131.32:2551
+sudo docker run -p 2551:2551 --name node-3 --net host akka-docker:2.5.3 192.168.131.31:2551 192.168.131.32:2551
 ```
 # bd worker6
 ```bash
-sudo docker run -p 2551:2551 --name node-4 --net host akka-docker:2.3.10 192.168.131.31:2551 192.168.131.32:2551
+sudo docker run -p 2551:2551 --name node-4 --net host akka-docker:2.5.3 192.168.131.31:2551 192.168.131.32:2551
 ```
 
 
